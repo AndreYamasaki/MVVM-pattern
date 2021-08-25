@@ -46,17 +46,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 }
 
-struct Person {
-    
-    let firstName: String
-    let lastName: String
-    let gender: String
-    let age: Int
-    let heigth: Double
-}
 
-struct CellViewModel {
-    
-    let firstName: String
-    let lastName: String
-}
+
+

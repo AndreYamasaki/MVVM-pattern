@@ -15,6 +15,8 @@
 		CE01A90A26D680D8005A8A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE01A90826D680D8005A8A07 /* LaunchScreen.storyboard */; };
 		CE01A91526D6882B005A8A07 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01A91326D6882B005A8A07 /* CustomTableViewCell.swift */; };
 		CE01A91626D6882B005A8A07 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE01A91426D6882B005A8A07 /* CustomTableViewCell.xib */; };
+		CE01A91B26D695F3005A8A07 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01A91A26D695F3005A8A07 /* Person.swift */; };
+		CE01A91D26D69640005A8A07 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01A91C26D69640005A8A07 /* CellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		CE01A90B26D680D8005A8A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE01A91326D6882B005A8A07 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CE01A91426D6882B005A8A07 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		CE01A91A26D695F3005A8A07 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CE01A91C26D69640005A8A07 /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +64,12 @@
 		CE01A8FC26D680D5005A8A07 /* MVVM pattern */ = {
 			isa = PBXGroup;
 			children = (
+				CE01A91926D695CB005A8A07 /* View */,
+				CE01A91826D695BB005A8A07 /* ViewModel */,
+				CE01A91726D6959F005A8A07 /* Model */,
 				CE01A8FD26D680D5005A8A07 /* AppDelegate.swift */,
 				CE01A8FF26D680D5005A8A07 /* SceneDelegate.swift */,
 				CE01A90126D680D5005A8A07 /* ViewController.swift */,
-				CE01A90326D680D5005A8A07 /* Main.storyboard */,
 				CE01A90626D680D8005A8A07 /* Assets.xcassets */,
 				CE01A90826D680D8005A8A07 /* LaunchScreen.storyboard */,
 				CE01A90B26D680D8005A8A07 /* Info.plist */,
@@ -71,6 +77,30 @@
 				CE01A91426D6882B005A8A07 /* CustomTableViewCell.xib */,
 			);
 			path = "MVVM pattern";
+			sourceTree = "<group>";
+		};
+		CE01A91726D6959F005A8A07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE01A91A26D695F3005A8A07 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE01A91826D695BB005A8A07 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE01A91C26D69640005A8A07 /* CellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE01A91926D695CB005A8A07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE01A90326D680D5005A8A07 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE01A91B26D695F3005A8A07 /* Person.swift in Sources */,
 				CE01A90226D680D5005A8A07 /* ViewController.swift in Sources */,
 				CE01A8FE26D680D5005A8A07 /* AppDelegate.swift in Sources */,
 				CE01A91526D6882B005A8A07 /* CustomTableViewCell.swift in Sources */,
+				CE01A91D26D69640005A8A07 /* CellViewModel.swift in Sources */,
 				CE01A90026D680D5005A8A07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
