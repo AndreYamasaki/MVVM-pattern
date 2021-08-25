@@ -13,6 +13,8 @@
 		CE01A90526D680D5005A8A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE01A90326D680D5005A8A07 /* Main.storyboard */; };
 		CE01A90726D680D8005A8A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE01A90626D680D8005A8A07 /* Assets.xcassets */; };
 		CE01A90A26D680D8005A8A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE01A90826D680D8005A8A07 /* LaunchScreen.storyboard */; };
+		CE01A91526D6882B005A8A07 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01A91326D6882B005A8A07 /* CustomTableViewCell.swift */; };
+		CE01A91626D6882B005A8A07 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE01A91426D6882B005A8A07 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE01A90626D680D8005A8A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE01A90926D680D8005A8A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE01A90B26D680D8005A8A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE01A91326D6882B005A8A07 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CE01A91426D6882B005A8A07 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CE01A90626D680D8005A8A07 /* Assets.xcassets */,
 				CE01A90826D680D8005A8A07 /* LaunchScreen.storyboard */,
 				CE01A90B26D680D8005A8A07 /* Info.plist */,
+				CE01A91326D6882B005A8A07 /* CustomTableViewCell.swift */,
+				CE01A91426D6882B005A8A07 /* CustomTableViewCell.xib */,
 			);
 			path = "MVVM pattern";
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				CE01A90A26D680D8005A8A07 /* LaunchScreen.storyboard in Resources */,
 				CE01A90726D680D8005A8A07 /* Assets.xcassets in Resources */,
+				CE01A91626D6882B005A8A07 /* CustomTableViewCell.xib in Resources */,
 				CE01A90526D680D5005A8A07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				CE01A90226D680D5005A8A07 /* ViewController.swift in Sources */,
 				CE01A8FE26D680D5005A8A07 /* AppDelegate.swift in Sources */,
+				CE01A91526D6882B005A8A07 /* CustomTableViewCell.swift in Sources */,
 				CE01A90026D680D5005A8A07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
